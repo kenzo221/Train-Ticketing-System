@@ -1,0 +1,236 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+vb assignment
+</name>
+</assembly>
+<members>
+<member name="T:vb_assignment.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:vb_assignment.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:vb_assignment.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:vb_assignment.Reservation_Dataset">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:vb_assignment.Reservation_Dataset.ReservationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:vb_assignment.Reservation_Dataset.ReservationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:vb_assignment.Reservation_Dataset.ReservationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:vb_assignment.Reservation_DatasetTableAdapters.ReservationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:vb_assignment.Reservation_DatasetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:vb_assignment.Reservation_DatasetTableAdapters.TableAdapterManager.UpdateUpdatedRows(vb_assignment.Reservation_Dataset,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:vb_assignment.Reservation_DatasetTableAdapters.TableAdapterManager.UpdateInsertedRows(vb_assignment.Reservation_Dataset,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:vb_assignment.Reservation_DatasetTableAdapters.TableAdapterManager.UpdateDeletedRows(vb_assignment.Reservation_Dataset,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:vb_assignment.Reservation_DatasetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:vb_assignment.Reservation_DatasetTableAdapters.TableAdapterManager.UpdateAll(vb_assignment.Reservation_Dataset)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:vb_assignment.Reservation_DatasetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:vb_assignment.Reservation_DatasetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.CustomerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.MovieDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.ReservationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.SeatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.CustomerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.MovieRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.ReservationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.SeatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.CustomerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.MovieRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.ReservationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.SeatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSet.StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSetTableAdapters.CustomerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSetTableAdapters.MovieTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSetTableAdapters.ReservationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSetTableAdapters.SeatTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSetTableAdapters.StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:vb_assignment.TicketingDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(vb_assignment.TicketingDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:vb_assignment.TicketingDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(vb_assignment.TicketingDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:vb_assignment.TicketingDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(vb_assignment.TicketingDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:vb_assignment.TicketingDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:vb_assignment.TicketingDataSetTableAdapters.TableAdapterManager.UpdateAll(vb_assignment.TicketingDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:vb_assignment.TicketingDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
